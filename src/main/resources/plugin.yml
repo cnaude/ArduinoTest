@@ -1,0 +1,27 @@
+name: ${project.artifactId}
+version: ${project.version}
+description: ${project.description}
+author: cnaude
+website: ${project.url}
+main: com.cnaude.arduinotest.${project.name}
+softdepend: []
+permissions:
+  arduino.dyewool:
+    description: Allow a player to dye a wool block.
+    default: op
+  arduino.dyewool.infinite:
+    description: Dying wool is free.
+    default: op
+  arduino.reload:
+    description: Reload configuration.
+    default: op
+  arduino.refresh:
+    description: Refresh LED grid.
+    default: op
+  arduino.interval:
+    description: Change frame interval.
+    default: op    
+commands:
+    ard:
+        description: Various ard commands
+        usage: /<command> help - List all ard commands available.

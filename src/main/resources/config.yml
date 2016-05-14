@@ -1,0 +1,42 @@
+# Global configuration for ArduinoTest
+debug: false
+output-file: 'ard.out'
+# block-type can be WOOL or STAINED_GLASS
+block-type: 'WOOL'
+# refresh rate in milliseconds
+refresh-rate: 50
+color-codes:
+  BLACK: '000000'
+  BLUE: '000009'
+  BROWN: '402020'
+  CYAN: '000020'
+  GRAY: '040404'
+  GREEN: '000900'
+  LIGHT_BLUE: '000010'
+  LIME: '001000'
+  MAGENTA: '100010'
+  ORANGE: '090500'
+  PINK: '100510'
+  PURPLE: '090009'
+  RED: '090000'
+  SILVER: '101010'
+  WHITE: '202020'
+  YELLOW: '101000'
+frames:
+#    BLACK: '000000'
+#    BLUE: '0000FF'
+#    BROWN: 'A52A2A'
+#    CYAN: '00FFFF'
+#    GRAY: '808080'
+#    GREEN: '006400'
+#    LIGHT_BLUE: 'ADD8E6'
+#    LIME: '00FF00'
+#    MAGENTA: 'FF00FF'
+#    ORANGE: 'FFA500'
+#    PINK: 'FFC0CB'
+#    PURPLE: '800080'
+#    RED: 'FF0000'
+#    SILVER: 'C0C0C0'
+#    WHITE: 'FFFFFF'
+#    YELLOW: 'FFFF00'
+frames:
